@@ -7,15 +7,18 @@
     "bundle": "node node_modules/react-vr/scripts/bundle.js",
     "open": "node -e \"require('xopen')('http://localhost:8081/vr/')\"",
     "devtools": "react-devtools",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "ovrui": "^1.1.0",
     "react": "~16.4.2",
-    "react-native": "~0.56.0",
+    "react-native": "~0.59.0",
     "three": "^0.95.0",
     "react-vr": "^2.0.0",
-    "react-vr-web": "^2.0.0"
+    "react-vr-web": "^2.0.0",
+    "snyk": "^1.228.2"
   },
   "devDependencies": {
     "babel-jest": "^23.4.2",
@@ -27,5 +30,6 @@
   },
   "jest": {
     "preset": "react-vr"
-  }
+  },
+  "snyk": true
 }
