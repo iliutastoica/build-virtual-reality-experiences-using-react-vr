@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "ovrui": "^1.1.0",
-    "react": "~16.4.2",
-    "react-native": "~0.56.0",
-    "three": "^0.95.0",
+    "react": "~16.5.0",
+    "react-native": "~0.69.12",
+    "three": "^0.125.0",
     "react-vr": "^2.0.0",
     "react-vr-web": "^2.0.0"
   },
